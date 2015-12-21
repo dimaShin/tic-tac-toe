@@ -1,9 +1,12 @@
-1. npm i
-2. npm run build
-3. npm run start
+# **React+Redux+Webpack *TicTacToe***
 
-// or run http server in build folder
+```
+npm i
+npm run build
+npm run start
+```
 
-TODO:
-  - add tests
-  - add real-time communication
+**TODO:**
+
+ - add tests add
+ -  real-time communication
