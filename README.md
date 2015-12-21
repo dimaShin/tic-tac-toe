@@ -1,4 +1,4 @@
-# **React+Redux+Webpack *TicTacToe***
+# React+Redux+Webpack TicTacToe
 
 ```
 npm i
