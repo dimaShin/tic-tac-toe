@@ -1,0 +1,8 @@
+@mixin icon($content) {
+  content: $content;
+  display: inline-block;
+  position: absolute;
+  font-weight: bold;
+  font-size: 5em;
+  left: 25px;
+}

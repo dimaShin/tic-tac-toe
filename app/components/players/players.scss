@@ -1,0 +1,35 @@
+@import "../../assets/styles/variables.scss";
+
+.players {
+  &__input {
+    width: 100%;
+    font-size: 1.2em;
+    border: 1px solid $dove-gray;
+    border-radius: 3px;
+    width: 100%;
+    margin: 0 0 5px 0;
+    padding: 5px;
+    box-sizing: border-box;
+
+    &:focus{
+      outline: 0;
+    }
+  }
+
+  &__control {
+    text-align: right;
+  }
+
+  &__button {
+    padding: 5px 15px;
+  }
+
+  &_state-hidden {
+    display: none;
+  }
+
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 10px 0;
+}

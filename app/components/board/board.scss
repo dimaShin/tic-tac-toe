@@ -1,0 +1,34 @@
+@import "../../assets/styles/variables.scss";
+@import "../../assets/styles/mixins.scss";
+
+.board {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  &__cell {
+    box-sizing: border-box;
+    border: 1px solid $dove-gray;
+    flex: 100px;
+    cursor: pointer;
+    position: relative;
+
+    &:hover {
+      background-color: $wild-sand;
+    }
+
+    &_X:after {
+      @include icon('x');
+    }
+
+    &_O:after {
+      @include icon('o');
+    }
+  }
+
+  &_state-disable {
+    opacity: 0.1;
+  }
+}

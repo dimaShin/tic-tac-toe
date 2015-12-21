@@ -1,0 +1,23 @@
+@import "../../assets/styles/variables";
+
+.game {
+  position: relative;
+  display: inline-block;
+
+  &__title {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -25px;
+    top: 50%;
+    font-size: 2.4em;
+    color: $alto;
+
+    &_state-hidden {
+      display: none;
+    }
+  }
+}

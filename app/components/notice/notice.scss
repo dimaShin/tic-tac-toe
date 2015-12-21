@@ -1,0 +1,32 @@
+@import "../../assets/styles/variables.scss";
+
+.notice {
+  display: none;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background: $white;
+  z-index: 1;
+  border: 1px solid $dove-gray;
+  left: 50%;
+  top: 50%;
+  margin-left: -100px;
+  margin-top: -50px;
+  border-radius: 3px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 15px 10px;
+
+  &_state-visible {
+    display: block;
+  }
+
+  &__button {}
+
+  &__name {
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    padding: 0;
+  }
+}

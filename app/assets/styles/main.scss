@@ -1,0 +1,25 @@
+@import "~normalize.css/normalize.css";
+@import "variables";
+@import "partials/button";
+
+body {
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif
+}
+
+.page {
+  padding: 15px;
+  width: 600px;
+  margin: 20px auto;
+  border: 1px solid $gray;
+  border-radius: 3px;
+  display: flex;
+
+  &__left {
+    flex: 2 0 0;
+  }
+
+  &__right {
+    flex: 1 0 0;
+  }
+}
