@@ -8,5 +8,5 @@ npm run start
 
 **TODO:**
 
- - add tests add
- -  real-time communication
+ - add tests
+ - real-time communication
